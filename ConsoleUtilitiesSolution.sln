@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableCloseButtonApp", "Di
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuConsoleAppBasic", "MenuConsoleAppBasic\MenuConsoleAppBasic.csproj", "{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottomRightApp", "BottomRightApp\BottomRightApp.csproj", "{04B29E37-1632-4B44-8275-9BFAF70B4D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B29E37-1632-4B44-8275-9BFAF70B4D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B29E37-1632-4B44-8275-9BFAF70B4D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B29E37-1632-4B44-8275-9BFAF70B4D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B29E37-1632-4B44-8275-9BFAF70B4D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{C33A65DC-65B3-4BD7-B507-C02692B8C084} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
 		{11E7C430-7EDF-4FAA-B1D0-277F0F66D8B0} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
 		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
+		{04B29E37-1632-4B44-8275-9BFAF70B4D18} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6EFBF38-6095-4D25-A2F9-933CCFACC7A7}
