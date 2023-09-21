@@ -10,6 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterScreenApp", "CenterScreenApp\CenterScreenApp.csproj", "{C99FC914-4CD3-4F2F-85FA-EF91A129BC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullScreenApp", "FullScreenApp\FullScreenApp.csproj", "{1FBDFAE8-3F99-46F6-B22C-16AF46FE8239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadKeyTimeoutApp", "ReadKeyTimeoutApp\ReadKeyTimeoutApp.csproj", "{C33A65DC-65B3-4BD7-B507-C02692B8C084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableCloseButtonApp", "DisableCloseButtonApp\DisableCloseButtonApp.csproj", "{11E7C430-7EDF-4FAA-B1D0-277F0F66D8B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuConsoleAppBasic", "MenuConsoleAppBasic\MenuConsoleAppBasic.csproj", "{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +32,36 @@ Global
 		{0B845212-FF55-481D-B2A7-F921F1E5593A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B845212-FF55-481D-B2A7-F921F1E5593A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B845212-FF55-481D-B2A7-F921F1E5593A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99FC914-4CD3-4F2F-85FA-EF91A129BC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99FC914-4CD3-4F2F-85FA-EF91A129BC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99FC914-4CD3-4F2F-85FA-EF91A129BC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99FC914-4CD3-4F2F-85FA-EF91A129BC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBDFAE8-3F99-46F6-B22C-16AF46FE8239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBDFAE8-3F99-46F6-B22C-16AF46FE8239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBDFAE8-3F99-46F6-B22C-16AF46FE8239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBDFAE8-3F99-46F6-B22C-16AF46FE8239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33A65DC-65B3-4BD7-B507-C02692B8C084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33A65DC-65B3-4BD7-B507-C02692B8C084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33A65DC-65B3-4BD7-B507-C02692B8C084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33A65DC-65B3-4BD7-B507-C02692B8C084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E7C430-7EDF-4FAA-B1D0-277F0F66D8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E7C430-7EDF-4FAA-B1D0-277F0F66D8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E7C430-7EDF-4FAA-B1D0-277F0F66D8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E7C430-7EDF-4FAA-B1D0-277F0F66D8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C99FC914-4CD3-4F2F-85FA-EF91A129BC7B} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
+		{1FBDFAE8-3F99-46F6-B22C-16AF46FE8239} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
+		{C33A65DC-65B3-4BD7-B507-C02692B8C084} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
+		{11E7C430-7EDF-4FAA-B1D0-277F0F66D8B0} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
+		{981CE9D2-8FE2-4A3C-AE61-BDB6EBDEC87A} = {BD24811C-4D3B-44B1-A953-1FCFEBDDD6B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6EFBF38-6095-4D25-A2F9-933CCFACC7A7}

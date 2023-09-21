@@ -5,8 +5,8 @@
 	  <Authors>Karen Payne</Authors>
 	  <Description>Provides methods to center a console window, disable min/max buttons of a console window and a simple readline timeout</Description>
 	  <Copyright></Copyright>
-	  <RepositoryUrl>https://github.com/karenpayneoregon/console-apps</RepositoryUrl>
-	  <PackageProjectUrl>https://github.com/karenpayneoregon/console-apps/tree/master/ConsoleHelperLibrary</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/karenpayneoregon/console-utilities/tree/master</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/karenpayneoregon/console-utilities/tree/master/ConsoleHelperLibrary</PackageProjectUrl>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageIcon>packImage.png</PackageIcon>
@@ -14,6 +14,7 @@
 	  <PackageTags>console csharp</PackageTags>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <Version>1.0.1</Version>
+	  <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -24,6 +25,13 @@
     <None Include="assets\packImage.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 

@@ -1,5 +1,11 @@
 ﻿# About
 
+Various methods for assisting with writing console projects.
+
+## Current version
+
+Moved from .NET Core 5 to .NET Core 6
+
 ## For positioning a console window
 
 > using  W = ConsoleHelperLibrary.Classes.WindowUtility;
