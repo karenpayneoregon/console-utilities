@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HolidaysApp": {
+      "commandName": "Project",
+      "commandLineArgs": "- c us"
+    }
+  }
+}

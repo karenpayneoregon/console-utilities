@@ -20,47 +20,47 @@ namespace MenuConsoleAppBasic
 
         }
 
-        private static void Selection(MenuItem menuItem, List<Employee> EmployeesList)
+        private static void Selection(MenuItem menuItem, List<Employee> employeesList)
         {
             switch (menuItem.Id)
             {
                 case 0:
-                    Operations.List(EmployeesList);
+                    Operations.List(employeesList);
                     break;
                 case 1:
                     if (AnsiConsole.Confirm("Add new manager"))
                     {
-                        EmployeesList.Add(Operations.AddEmployee(JobType.Manager));
+                        employeesList.Add(Operations.AddEmployee(JobType.Manager));
                     }
                     break;
                 case 2:
                     if (AnsiConsole.Confirm("Add new engineer"))
                     {
-                        EmployeesList.Add(Operations.AddEmployee(JobType.Engineer));
+                        employeesList.Add(Operations.AddEmployee(JobType.Engineer));
                     }
                     break;
                 case 3:
                     if (AnsiConsole.Confirm("Add new regular employee"))
                     {
-                        EmployeesList.Add(Operations.AddEmployee(/* default is Employee*/));
+                        employeesList.Add(Operations.AddEmployee(/* default is Employee*/));
                     }
                     break;
                 case 4:
                     // TODO - edit
                     break;
                 case 5:
-                    var employee = AnsiConsole.Prompt(MenuOperations.RemoveMenu(EmployeesList));
+                    var employee = AnsiConsole.Prompt(MenuOperations.RemoveMenu(employeesList));
                     if (employee.Id == -2)
                     {
                         break;
                     }
                     if (AnsiConsole.Confirm($"Remove {employee.FirstName} {employee.LastName}", false))
                     {
-                        _ = Operations.Remove(EmployeesList,employee);
+                        _ = Operations.Remove(employeesList,employee);
                     }
                     break;
                 case 6:
-                    Operations.Save(EmployeesList);
+                    Operations.Save(employeesList);
                     break;
             }
         }
